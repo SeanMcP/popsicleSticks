@@ -5,8 +5,25 @@
 		<link rel="stylesheet" href="./css/main.css" type="text/css"/>
 	</head>
 	<body>
+		<header>
+			<div id="headWrapper">
+				<a id="logoLink" class="shift" href="."><img src="./img/popsicle-sticks-logo.png" alt=""/></a>
+
+				<h1 id="mainHeading" class="shift">Popsicle Sticks</h1>
+
+				<p id="instructions">Make sure you call on every student with Popsicle Sticks. Randomly select a number without repeating.</p>
+
+				<input type="number" id="numStudents" class="shift" name="numStudents" value="" placeholder="# of students">
+
+				<button type="button" id="genArray" class="shift" name="genArray">Make Sticks</button>
+			</div>
+		</header>
 		<div id="siteWrapper">
-			<input type="number" id="numStudents" name="numStudents" value="" placeholder="How many students in your class?">
+			<form id="selStudent" class="" action="index.html" method="post">
+				<button id="prevStudent" type="button" name="prevStudent"><</button>
+				<div id="studentScreen"></div>
+				<button id="nextStudent" type="button" name="nextStudent">></button>
+			</form>
 		</div>
 		<script src="./js/main.js"></script>
 	</body>

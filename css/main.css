@@ -1,3 +1,64 @@
 body {
-	
+	margin: 0;
+	padding: 0;
+}
+header {
+	border: 1px solid #BBDBFE;
+	width: 100%;
+}
+#headWrapper {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 0 auto;
+	width: 98%;
+	max-width: 600px;
+	align-items: center;
+}
+#logoLink {
+	flex: 0 20%;
+}
+#logoLink img {
+	width: 100%;
+}
+#mainHeading {
+	margin-left: 20px;
+	font-size: 3em;
+	flex: 1 50%;
+}
+#instructions {
+	flex: 1 100%;
+}
+#numStudents {
+	flex: 1 100%;
+	font-size: 3em;
+	padding: 1em;
+	border-radius: 0.25em;
+	border: 1px solid #ddd;
+	text-align: center;
+}
+#siteWrapper {
+	margin: 0 auto;
+	width: 98%;
+	max-width: 600px;
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+#genArray {
+	flex: 1 100%;
+}
+#selStudent {
+	display: flex;
+	flex-flow: row nowrap;
+}
+#prevStudent, #nextStudent {
+	flex: 0 20%;
+}
+#studentScreen {
+	flex: 1 50%;
+	padding: 1em;
+	font-size: 3em;
+	border-top: 1px solid blue;
+	border-bottom: 1px solid blue;
+	text-align: center;
 }
