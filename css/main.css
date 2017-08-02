@@ -2,7 +2,33 @@ body {
 	margin: 0;
 	padding: 0;
 }
-header {
+header.shift {
+	background: #1976D2;
+}
+#headWrapper.shift {
+	display: flex;
+	flex-flow: row nowrap;
+}
+#logoLink.shift {
+	flex: 1 20%;
+	margin: 10px 0 10px 10px;
+}
+#logoLink.shift img {
+	width: 100%;
+}
+#mainHeading.shift, #instructions.shift {
+	display: none;
+}
+#numStudents.shift {
+	flex: 1 60%;
+	margin: 10px 0 10px 10px;
+}
+#genArray.shift {
+	flex: 0 20%;
+	margin: 10px 10px 10px 0;
+}
+
+/*header {
 	border: 1px solid #BBDBFE;
 	width: 100%;
 }
@@ -36,6 +62,9 @@ header {
 	border: 1px solid #ddd;
 	text-align: center;
 }
+#genArray {
+	flex: 1 100%;
+}*/
 #siteWrapper {
 	margin: 0 auto;
 	width: 98%;
@@ -43,9 +72,6 @@ header {
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
-}
-#genArray {
-	flex: 1 100%;
 }
 #selStudent {
 	display: flex;
